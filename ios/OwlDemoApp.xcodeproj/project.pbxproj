@@ -161,7 +161,6 @@
 				BB6E7F6BC82BE9D3D6A6A431 /* Pods-OwlDemoApp-tvOSTests.debug.xcconfig */,
 				6BD7DF4AA7A182FC5AB58E03 /* Pods-OwlDemoApp-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -657,6 +656,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
 				INFOPLIST_FILE = OwlDemoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
