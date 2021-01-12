@@ -5,6 +5,10 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "owl:build:ios": "yarn owl build --platform ios",
+    "owl:test:ios": "yarn owl test --platform ios",
+    "owl:build:android": "yarn owl build --platform android",
+    "owl:test:android": "yarn owl test --platform android",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
